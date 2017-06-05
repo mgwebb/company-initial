@@ -34,7 +34,6 @@ public class Company {
 		this.website = website;
 		this.twitter = twitter;
 	}
-/* adding comment */
 
 	public UUID getId() {
 		return id;
