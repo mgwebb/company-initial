@@ -9,7 +9,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 @RestController
 class MessageController {
 
-    @Value("${message: Hello world}")
+    @Value("${message}")
     private String message;
 
     @RequestMapping("/message")
