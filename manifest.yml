@@ -6,7 +6,7 @@ applications:
   instances: 1
   buildpack: java_buildpack
   services:
-  - companydb 
+  - companydb2
   - my-logs
   - config-service
   env:
