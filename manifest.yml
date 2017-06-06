@@ -8,5 +8,6 @@ applications:
   services:
   - companydb 
   - my-logs
+  - config-service
   env:
     SPRING_PROFILES_ACTIVE: dev
