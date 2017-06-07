@@ -1,7 +1,7 @@
 ---
 applications:
 - name: company
-  memory: 1G
+  memory: 512M
   path: company.jar
   instances: 1
   buildpack: java_buildpack
