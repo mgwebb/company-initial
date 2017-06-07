@@ -1,12 +1,12 @@
 ---
 applications:
 - name: company
-  memory: 512M
+  memory: 1G
   path: company.jar
   instances: 1
   buildpack: java_buildpack
   services:
-  - companydb4
+  - companydb5
   - my-logs
   - config-service
   env:
